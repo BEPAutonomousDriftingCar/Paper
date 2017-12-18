@@ -19,6 +19,14 @@
 %%% use twocolumn and 10pt options with the asme2e format
 \documentclass[twocolumn,10pt]{asme2e}
 
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{%
+    #1%
+    \\\hspace{\linewidth}%
+    \textbf{Source:} #2%
+  }%
+}
+
 \usepackage{textcomp}
 \usepackage[USenglish]{babel}    % English
 \usepackage[ansinew]{inputenc}   % Output glyphs like 'ö' at all
@@ -31,7 +39,7 @@
 %\usepackage{titling}
  
 
-\usepackage{amsmath}             % Math packages
+\usepackage{mathtools}             % Math packages
 \let\proof\relax 
 \let\endproof\relax
 \usepackage{amsthm}
@@ -78,7 +86,7 @@
     \affiliation{
 	BSC student\\
 	TU Delft\\
-    SN: 0000000
+    SN: 4391888
     }	
 }
 
@@ -86,7 +94,7 @@
     \affiliation{
 	BSC student\\
 	TU Delft\\
-    SN: 0000000
+    SN: 4227174
     }	
 }
 
