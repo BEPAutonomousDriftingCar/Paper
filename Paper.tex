@@ -1,42 +1,129 @@
-\documentclass[a4paper,twoside,10pt,twocolumn,notitlepage]{report}
-\author{Eugene Figueiras(4257669), Maarten Kleijwegt(4113810), Nol R{\"o}mer(4391888), Akash Soerdjbalie(422174)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Paper.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template for producing ASME-format journal articles using LaTeX    %
+% Written by   Harry H. Cheng, Professor and Director                %
+%              Integration Engineering Laboratory                    %
+%              Department of Mechanical and Aeronautical Engineering %
+%              University of California                              %
+%              Davis, CA 95616                                       %
+%              Tel: (530) 752-5020 (office)                          %
+%                   (530) 752-1028 (lab)                             %
+%              Fax: (530) 752-4158                                   %
+%              Email: hhcheng@ucdavis.edu                            %
+%              WWW:   http://iel.ucdavis.edu/people/cheng.html       %
+%              May 7, 1994                                           %
+% Modified: February 16, 2001 by Harry H. Cheng                      %
+% Modified: January  01, 2003 by Geoffrey R. Shiflett                %
+% Use at your own risk, send complaints to /dev/null                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%% use twocolumn and 10pt options with the asme2e format
+\documentclass[twocolumn,10pt]{asme2e}
+
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{%
+    #1%
+    \\\hspace{\linewidth}%
+    \textbf{Source:} #2%
+  }%
+}
+
+\usepackage{textcomp}
 \usepackage[USenglish]{babel}    % English
 \usepackage[ansinew]{inputenc}   % Output glyphs like 'ö' at all
-\usepackage[T1]{fontenc}         % Output glyphs like 'ö' in a nice font
-\usepackage{lmodern}             % Add good-looking font
+%\usepackage[T1]{fontenc}         % Output glyphs like 'ö' in a nice font
 \usepackage{graphicx}            % For loading graphic files
-\usepackage{a4wide}              % Smaller margins = more text per page.
+%\usepackage{a4wide}              % Smaller margins = more text per page.
 \usepackage{fancyhdr}            % Fancy headings
 \usepackage{longtable}           % For tables, that exceed one page
 \usepackage{xspace}              % Geeft spaties na commando's die dat behoeven
-\usepackage{titling}
+%\usepackage{titling}
+ 
 
-\usepackage{amsmath}             % Math packages
+\usepackage{mathtools}             % Math packages
+\let\proof\relax 
+\let\endproof\relax
 \usepackage{amsthm}
 \usepackage{amsfonts}
 
+%% The class has several options
+%  onecolumn/twocolumn - format for one or two columns per page
+%  10pt/11pt/12pt - use 10, 11, or 12 point font
+%  oneside/twoside - format for oneside/twosided printing
+%  final/draft - format for final/draft copy
+%  cleanfoot - take out copyright info in footer leave page number
+%  cleanhead - take out the conference banner on the title page
+%  titlepage/notitlepage - put in titlepage or leave out titlepage
+%  
+%% The default is oneside, onecolumn, 10pt, final
 
 
+\title{Determining Tire characteristics through data driven modeling}
 
+%%% first author
+\author{Eugene Figueiras
+    \affiliation{
+	BSC student\\
+	TU Delft\\
+    SN:0000000 
+    }	
+}
 
+%%% second author
+%%% remove the following entry for single author papers
+%%% add more entries for additional authors
+\author{Maarten Kleijwegt
+    \affiliation{
+	BSC student\\
+	TU Delft\\
+    SN:4113810 
+    }	
+}
 
+%%% third author
+%%% remove the following entry for single author papers
+%%% add more entries for additional authors
+\author{Nol R{\"o}mer
+    \affiliation{
+	BSC student\\
+	TU Delft\\
+    SN: 4391888
+    }	
+}
+
+\author{Akash Soerdjbalie
+    \affiliation{
+	BSC student\\
+	TU Delft\\
+    SN: 4227174
+    }	
+}
+
+\author{dr.ir. Tam{\'a}s Keviczky
+    \affiliation{
+	Associate Professor \\
+	Delf Center for Systems and Control 
+    }	
+}
+\author{Wil van Geest
+    \affiliation{
+	???\\
+	Delft Center for Systems and Control\\
+    }	
+}
 \begin{document}
-\title{Sensor-fusion for data-driven modeling of a small-scale autonomous drifting car}
-\maketitle
-Supervisor: Tam{\'a}s Keviczky
 
-\begin{abstract}
-abstract
-\end{abstract}
+\maketitle    
 
-\section{Lorem Ipsum}
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-In de galerieën op het tabblad Invoegen bevinden zich items die zodanig zijn ontworpen dat deze bij het algemene uiterlijk van uw document passen. U kunt deze galerieën gebruiken om tabellen, kopteksten, voetteksten, lijsten, voorbladen en andere bouwstenen voor documenten in te voegen. Als u afbeeldingen, grafieken of diagrammen maakt, worden deze aangepast aan het huidige uiterlijk van uw document.
-U kunt de opmaak van in de documenttekst geselecteerde tekst gemakkelijk wijzigen door een uiterlijk voor de geselecteerde tekst te kiezen in de galerie Snelle stijlen op het tabblad Start. U kunt de tekst ook rechtstreeks opmaken met de andere besturingselementen op het tabblad Start. Voor de meeste besturingselementen hebt u de keuze uit het uiterlijk van het huidige thema of een opmaak die u zelf opgeeft.
-Als u het algemene uiterlijk van uw document wilt wijzigen, dient u nieuwe thema-elementen op het tabblad Pagina-indeling te kiezen. Gebruik de opdracht Huidige reeks snelle stijlen wijzigen om de beschikbare stijlen in de galerie Snelle stijlen te wijzigen. In zowel de galerie Thema's als de galerie Snelle stijlen bevinden zich opdrachten waarmee u het uiterlijk van het document altijd kunt terugzetten naar het oorspronkelijke uiterlijk van de huidige sjabloon.
+\input{abstract.tex}
+\input{introduction.tex}
+\input{background.tex}
+\input{experiment.tex}
+\input{discussion.tex}
+\input{conclusion.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 
 
 
