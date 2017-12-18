@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.13)  17 DEC 2017 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.13)  18 DEC 2017 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,42 +510,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figure/bicyclemodel.png Graphic file (type png)
 
 <use figure/bicyclemodel.png>
-Package pdftex.def Info: figure/bicyclemodel.png used on input line 10.
+Package pdftex.def Info: figure/bicyclemodel.png used on input line 7.
 (pdftex.def)             Requested size: 195.2289pt x 168.62958pt.
 ) (./experiment.tex [2 <./figure/bicyclemodel.png (PNG copy)>] <figure/DataFram
 ework.jpg, id=18, 1123.19624pt x 554.07pt>
 File: figure/DataFramework.jpg Graphic file (type jpg)
 
 <use figure/DataFramework.jpg>
-Package pdftex.def Info: figure/DataFramework.jpg used on input line 14.
+Package pdftex.def Info: figure/DataFramework.jpg used on input line 15.
 (pdftex.def)             Requested size: 247.10393pt x 121.89577pt.
 
-Overfull \hbox (5.72185pt too wide) in paragraph at lines 14--15
+Overfull \hbox (5.72185pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
-<figure/brickwall.png, id=19, 1026.83624pt x 825.0825pt>
+[3 <./figure/DataFramework.jpg>]
+<figure/brickwall.png, id=22, 1026.83624pt x 825.0825pt>
 File: figure/brickwall.png Graphic file (type png)
 
 <use figure/brickwall.png>
-Package pdftex.def Info: figure/brickwall.png used on input line 32.
+Package pdftex.def Info: figure/brickwall.png used on input line 37.
 (pdftex.def)             Requested size: 174.55984pt x 140.26216pt.
 
-<figure/Longitudonalslip.JPG, id=20, 199.947pt x 92.7465pt>
+<figure/Longitudonalslip.JPG, id=23, 199.947pt x 92.7465pt>
 File: figure/Longitudonalslip.JPG Graphic file (type jpg)
 
 <use figure/Longitudonalslip.JPG>
-Package pdftex.def Info: figure/Longitudonalslip.JPG used on input line 44.
+Package pdftex.def Info: figure/Longitudonalslip.JPG used on input line 49.
 (pdftex.def)             Requested size: 79.97737pt x 37.09793pt.
 
-<figure/Equationsofmotion.JPG, id=21, 242.1045pt x 179.4705pt>
+<figure/Equationsofmotion.JPG, id=24, 242.1045pt x 179.4705pt>
 File: figure/Equationsofmotion.JPG Graphic file (type jpg)
 
 <use figure/Equationsofmotion.JPG>
-Package pdftex.def Info: figure/Equationsofmotion.JPG used on input line 54.
+Package pdftex.def Info: figure/Equationsofmotion.JPG used on input line 59.
 (pdftex.def)             Requested size: 96.84007pt x 71.78691pt.
 ) (./discussion.tex
-<figure/MagicFormulaFrontBags.jpg, id=22, 979.66pt x 305.14pt>
+<figure/MagicFormulaFrontBags.jpg, id=25, 979.66pt x 305.14pt>
 File: figure/MagicFormulaFrontBags.jpg Graphic file (type jpg)
 
 <use figure/MagicFormulaFrontBags.jpg>
@@ -553,60 +554,62 @@ Package pdftex.def Info: figure/MagicFormulaFrontBags.jpg used on input line 5.
 
 (pdftex.def)             Requested size: 195.92853pt x 61.0269pt.
 
-<figure/MagicFormulaFrontBagsFitnumbers.jpg, id=23, 137.7647pt x 125.71968pt>
+<figure/MagicFormulaFrontBagsFitnumbers.jpg, id=26, 137.7647pt x 125.71968pt>
 File: figure/MagicFormulaFrontBagsFitnumbers.jpg Graphic file (type jpg)
 
 <use figure/MagicFormulaFrontBagsFitnumbers.jpg>
 Package pdftex.def Info: figure/MagicFormulaFrontBagsFitnumbers.jpg used on inp
 ut line 6.
-(pdftex.def)             Requested size: 27.55244pt x 25.14348pt.
+(pdftex.def)             Requested size: 68.88217pt x 62.85968pt.
 
-<figure/MagicFormulaFrontBagsPic.jpg, id=24, 562.1pt x 421.575pt>
+<figure/MagicFormulaFrontBagsPic.jpg, id=27, 562.1pt x 421.575pt>
 File: figure/MagicFormulaFrontBagsPic.jpg Graphic file (type jpg)
 
 <use figure/MagicFormulaFrontBagsPic.jpg>
 Package pdftex.def Info: figure/MagicFormulaFrontBagsPic.jpg used on input line
  7.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
- [3 <./figure/DataFramework.jpg> <./figure/brickwall.png> <./figure/Longitudona
-lslip.JPG>]
-<figure/MagicFormulaRearBags.jpg, id=29, 979.66pt x 305.14pt>
+
+<figure/MagicFormulaRearBags.jpg, id=28, 979.66pt x 305.14pt>
 File: figure/MagicFormulaRearBags.jpg Graphic file (type jpg)
 
 <use figure/MagicFormulaRearBags.jpg>
-Package pdftex.def Info: figure/MagicFormulaRearBags.jpg used on input line 11.
+Package pdftex.def Info: figure/MagicFormulaRearBags.jpg used on input line 12.
 
 (pdftex.def)             Requested size: 195.92853pt x 61.0269pt.
 
-<figure/MagicFormulaRearBagsFitnumbers.jpg, id=30, 143.03438pt x 125.71968pt>
+<figure/MagicFormulaRearBagsFitnumbers.jpg, id=29, 143.03438pt x 125.71968pt>
 File: figure/MagicFormulaRearBagsFitnumbers.jpg Graphic file (type jpg)
 
 <use figure/MagicFormulaRearBagsFitnumbers.jpg>
 Package pdftex.def Info: figure/MagicFormulaRearBagsFitnumbers.jpg used on inpu
-t line 12.
-(pdftex.def)             Requested size: 28.60635pt x 25.14348pt.
+t line 13.
+(pdftex.def)             Requested size: 71.517pt x 62.85968pt.
 
-<figure/MagicFormulaRearBagsPic.jpg, id=31, 562.1pt x 421.575pt>
+<figure/MagicFormulaRearBagsPic.jpg, id=30, 562.1pt x 421.575pt>
 File: figure/MagicFormulaRearBagsPic.jpg Graphic file (type jpg)
 
 <use figure/MagicFormulaRearBagsPic.jpg>
 Package pdftex.def Info: figure/MagicFormulaRearBagsPic.jpg used on input line 
-13.
+14.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
-) (./conclusion.tex) [4 <./figure/Equationsofmotion.JPG> <./figure/MagicFormula
-FrontBags.jpg> <./figure/MagicFormulaFrontBagsFitnumbers.jpg> <./figure/MagicFo
-rmulaFrontBagsPic.jpg> <./figure/MagicFormulaRearBags.jpg> <./figure/MagicFormu
-laRearBagsFitnumbers.jpg> <./figure/MagicFormulaRearBagsPic.jpg>] (./Paper.aux)
+ [4 <./figure/brickwall.png> <./figure/Longitudonalslip.JPG> <./figure/Equation
+sofmotion.JPG> <./figure/MagicFormulaFrontBags.jpg> <./figure/MagicFormulaFront
+BagsFitnumbers.jpg> <./figure/MagicFormulaFrontBagsPic.jpg> <./figure/MagicForm
+ulaRearBags.jpg> <./figure/MagicFormulaRearBagsFitnumbers.jpg> <./figure/MagicF
+ormulaRearBagsPic.jpg>])
+(./conclusion.tex) [5
 
+] (./Paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4306 strings out of 494910
- 61299 string characters out of 6179835
- 129243 words of memory out of 5000000
- 7453 multiletter control sequences out of 15000+600000
+ 4308 strings out of 494910
+ 61324 string characters out of 6179835
+ 130259 words of memory out of 5000000
+ 7455 multiletter control sequences out of 15000+600000
  29825 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,10n,43p,1692b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -618,10 +621,10 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
 syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper.pdf (4 pages, 407131 bytes).
+Output written on Paper.pdf (5 pages, 411605 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
